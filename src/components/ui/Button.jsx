@@ -1,23 +1,23 @@
 import PropTypes from "prop-types";
 
-const Button = ({ buttonText, props }) => {
+const Button = ({ buttonText, className }) => {
   return (
     <button
-      className={`rounded-40 relative cursor-pointer pt-2.5 pr-6 pb-2.5 pl-6 text-center text-sm font-bold transition-all duration-200 ease-linear ${props}`}
+      className={`relative cursor-pointer rounded-[40px] pt-[8px] pr-6 pb-[8px] pl-6 text-center text-sm font-bold transition-all duration-200 ease-linear ${className}`}
     >
       {buttonText}
     </button>
   );
 };
 
-// Definição dos tipos das props
+
 Button.propTypes = {
   buttonText: PropTypes.string.isRequired,
-  props: PropTypes.string, // Para a prop 'className'
+  className: PropTypes.string,
 };
 
 Button.defaultProps = {
-  props: "", // Valor padrão caso não seja passado 'className'
+  className: "",
 };
 
 export default Button;
