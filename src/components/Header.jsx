@@ -1,4 +1,7 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Button from "./ui/button";
+import DropDownMenu from "./ui/DropDownMenu";
 
 const Header = () => {
   return (
@@ -7,26 +10,64 @@ const Header = () => {
         <img src="/public/logo-omie.png" alt="Logo da empresa" />
       </div>
       <div className="flex items-center gap-3">
-        <ul className="flex gap-6 text-sm font-medium text-[#9b9b9b]">
-          <li className="cursor-pointer transition-all duration-200 ease-linear hover:text-white">
+        <ul className="flex gap-6 text-base font-medium text-[#9b9b9b]">
+          <li className="cursor-pointer p-2 transition-all duration-200 ease-linear hover:text-white">
             Para Empresas
           </li>
-          <li className="cursor-pointer transition-all duration-200 ease-linear hover:text-white">
+          <li className="cursor-pointer p-2 transition-all duration-200 ease-linear hover:text-white">
             Para Colaboradores
           </li>
-          <li className="cursor-pointer transition-all duration-200 ease-linear hover:text-white">
+          <li className="cursor-pointer p-2 transition-all duration-200 ease-linear hover:text-white">
             Preços
           </li>
-          <li className="cursor-pointer transition-all duration-200 ease-linear hover:text-white">
+          <li className="cursor-pointer p-2 transition-all duration-200 ease-linear hover:text-white">
             Funcionalidades
           </li>
-          <li className="cursor-pointer transition-all duration-200 ease-linear hover:text-white">
-            Segmentos
-          </li>
-          <li className="cursor-pointer transition-all duration-200 ease-linear hover:text-white">
-            Explore
-          </li>
-          <li className="cursor-pointer transition-all duration-200 ease-linear hover:text-white">
+
+          {/* Dropdown Segmentos */}
+          <DropDownMenu
+            trigger={
+              <>
+                Segmentos <FontAwesomeIcon icon={faChevronDown} />
+              </>
+            }
+            items={[
+              "Comércio",
+              "Serviços",
+              "Tecnologia",
+              "Indústria",
+              "E-commerce",
+              "Varejo e atacado",
+              "Restaurantes",
+              "Marketing e propaganda",
+              "Transportadoras",
+              "Distribuidoras",
+              "Consultórios e clínicas médicos",
+            ]}
+            menuWidth="w-[260px]"
+          />
+
+          {/* Dropdown Explore */}
+          <DropDownMenu
+            trigger={
+              <>
+                Explore <FontAwesomeIcon icon={faChevronDown} />
+              </>
+            }
+            items={[
+              "Soluções Financeiras",
+              "Seja um franqueado",
+              "Omie.Store",
+              "Índice econômico",
+              "Omie.Academy",
+              "Blog",
+              "Sobre a Omie",
+              "Fale conosco",
+            ]}
+            menuWidth="w-[180px]"
+          />
+
+          <li className="cursor-pointer p-2 transition-all duration-200 ease-linear hover:text-white">
             Entrar
           </li>
         </ul>
