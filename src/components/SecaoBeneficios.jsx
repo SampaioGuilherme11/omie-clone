@@ -50,12 +50,12 @@ const SecaoBeneficios = () => {
 
   return (
     <div className="flex flex-col items-center justify-center py-20">
-      <h2 className="max-w-[800px] pb-10 text-center text-3xl font-bold text-[#001E27]">
+      <h2 className="pb-10 text-center text-3xl font-bold text-[#001E27]">
         Reduza custos e ganhe até 20x mais eficiência em suas operações
       </h2>
 
-      <div className="flex w-full max-w-[1200px] items-center justify-between gap-6">
-        <div className="flex w-[50%] flex-col gap-4">
+      <div className="flex w-full justify-center gap-6">
+        <div className="flex w-[35%] flex-col gap-4">
           {beneficios.map((beneficio) => (
             <CardBeneficios
               key={beneficio.id}
@@ -72,16 +72,28 @@ const SecaoBeneficios = () => {
 
         <div className="relative flex justify-start">
           <AnimatePresence mode="wait">
-            <motion.img
+            <motion.div
               key={selectedCard}
-              src={beneficios.find((b) => b.id === selectedCard)?.gif}
-              alt="GIF vendas"
-              className="h-auto max-h-[350px] w-auto rounded-xl object-contain"
+              className="relative overflow-hidden rounded-xl bg-white"
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.95 }}
               transition={{ duration: 0.5 }}
-            />
+            >
+              <div className="flex w-full items-center justify-end rounded-t-xl bg-[#001E27] p-4">
+                <div className="flex gap-2">
+                  <span className="h-3 w-3 rounded-full bg-[#00E2F4]"></span>
+                  <span className="h-3 w-3 rounded-full bg-[#D7FD00]"></span>
+                  <span className="h-3 w-3 rounded-full bg-[#FF601F]"></span>
+                </div>
+              </div>
+
+              <motion.img
+                src={beneficios.find((b) => b.id === selectedCard)?.gif}
+                alt="GIF ilustrativo"
+                className="h-auto max-h-[550px] w-auto rounded-b-xl object-contain"
+              />
+            </motion.div>
           </AnimatePresence>
         </div>
       </div>
