@@ -1,5 +1,6 @@
 import "./App.css";
 import Apresentacao from "./components/Apresentacao";
+import DepoimentoClientes from "./components/DepoimentoClientes";
 import Filiados from "./components/Filiados";
 import Header from "./components/Header";
 import SecaoBeneficios from "./components/SecaoBeneficios";
@@ -19,6 +20,7 @@ function App() {
       <TesteGratis />
       <SobreMercado />
       <Filiados />
+      <DepoimentoClientes/>
     </>
   );
 }
