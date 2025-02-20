@@ -19,6 +19,12 @@ const DepoimentoClientes = () => {
           <Button
             className="h-[40px] border-2 border-white bg-[#001E27] text-[16px] text-white shadow-none transition-all hover:shadow-[0_5px_0_0_#ffffff7e]"
             buttonText="Outros depoimentos"
+            onClick={() =>
+              window.open(
+                "https://www.youtube.com/playlist?list=PLT_nh7d0FvPX2fiwADvgHlxd3Z2ePKFrK",
+                "_blank",
+              )
+            }
           />
         </div>
       </div>

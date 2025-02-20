@@ -3,6 +3,7 @@ import Apresentacao from "./components/Apresentacao";
 import DepoimentoClientes from "./components/DepoimentoClientes";
 import Filiados from "./components/Filiados";
 import Header from "./components/Header";
+import Marcas from "./components/Marcas";
 import SecaoBeneficios from "./components/SecaoBeneficios";
 import SobreMercado from "./components/SobreMercado";
 import TesteGratis from "./components/TesteGratis";
@@ -20,7 +21,8 @@ function App() {
       <TesteGratis />
       <SobreMercado />
       <Filiados />
-      <DepoimentoClientes/>
+      <DepoimentoClientes />
+      <Marcas />
     </>
   );
 }
