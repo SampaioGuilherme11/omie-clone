@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Button from "./ui/button";
+import Button from "./ui/Button";
 
 // Palavras a serem digitadas
 const palavras = ["controle", "resultado", "previsibilidade"];
