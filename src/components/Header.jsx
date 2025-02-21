@@ -5,7 +5,7 @@ import DropDownMenu from "./ui/DropDownMenu";
 
 const Header = () => {
   return (
-    <header className="flex h-[93px] w-full justify-between bg-[#001E27] pt-[20px] pr-[32px] pb-[20px] pl-[32px]">
+    <header className="flex h-[93px] w-full justify-between bg-[#001E27] pt-[20px] pr-[32px] pb-[20px] pl-[32px] shadow-[0px_2px_0px_0px_rgba(0,0,0,0.51)]">
       <div>
         <img src="/public/logo-omie.png" alt="Logo da empresa" />
       </div>

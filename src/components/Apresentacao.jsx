@@ -38,7 +38,7 @@ const Apresentacao = () => {
           <h2 className="text-[32px] font-bold">Mais tempo para você.</h2>
           <h2 className="text-[32px] font-bold">
             Mais{" "}
-            <span className="inline-block h-[70%] bg-[#D8FE00] px-2 leading-[70%] text-[#001e27]">
+            <span className="inline-block h-[70%] cursor-pointer bg-[#D8FE00] px-2 leading-[70%] text-[#001e27]">
               {palavras[palavraIndex].substring(0, charIndex)}
             </span>
           </h2>

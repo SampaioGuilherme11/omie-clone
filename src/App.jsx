@@ -2,7 +2,9 @@ import "./App.css";
 import Apresentacao from "./components/Apresentacao";
 import DepoimentoClientes from "./components/DepoimentoClientes";
 import Filiados from "./components/Filiados";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Iode from "./components/Iode";
 import Marcas from "./components/Marcas";
 import SecaoBeneficios from "./components/SecaoBeneficios";
 import SobreMercado from "./components/SobreMercado";
@@ -23,6 +25,8 @@ function App() {
       <Filiados />
       <DepoimentoClientes />
       <Marcas />
+      <Iode />
+      <Footer/>
     </>
   );
 }
