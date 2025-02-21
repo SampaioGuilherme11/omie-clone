@@ -35,13 +35,9 @@ const DepoimentoClientes = () => {
           rel="noopener noreferrer"
         >
           <div className="relative">
+            <img src="/capa-1.webp" alt="PESSOA 1" className="rounded-[15px]" />
             <img
-              src="/public/capa-1.webp"
-              alt="PESSOA 1"
-              className="rounded-[15px]"
-            />
-            <img
-              src="/public/play-dep.png"
+              src="/play-dep.png"
               alt="Play"
               className="absolute top-1/2 left-34 h-16 w-16 -translate-x-1/2 -translate-y-1/2 transform"
             />
@@ -60,13 +56,9 @@ const DepoimentoClientes = () => {
           rel="noopener noreferrer"
         >
           <div className="relative">
+            <img src="/capa-2.webp" alt="PESSOA 2" className="rounded-[15px]" />
             <img
-              src="/public/capa-2.webp"
-              alt="PESSOA 2"
-              className="rounded-[15px]"
-            />
-            <img
-              src="/public/play-dep.png"
+              src="/play-dep.png"
               alt="Play"
               className="absolute top-1/2 left-34 h-16 w-16 -translate-x-1/2 -translate-y-1/2 transform"
             />

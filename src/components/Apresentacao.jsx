@@ -60,7 +60,7 @@ const Apresentacao = () => {
       </div>
       <div className="h-full">
         <img
-          src="/public/banner-desk.webp"
+          src="/banner-desk.webp"
           alt="Banner Empresa"
           className="h-full object-cover"
         />

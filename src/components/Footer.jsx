@@ -132,7 +132,7 @@ const Footer = () => {
         </div>
         <div className="flex items-center justify-between bg-[#001E27] px-[50px] py-[30px] text-white">
           <div>
-            <img src="/public/logo-omie.png" alt="omie" />
+            <img src="/logo-omie.png" alt="omie" />
           </div>
           <div className="flex flex-col items-center gap-[20px] text-[14px]">
             <div className="flex gap-[20px]">

@@ -5,43 +5,43 @@ import CardBeneficios from "./ui/CardBeneficios";
 const beneficios = [
   {
     id: "vendas",
-    imgSrc: "/public/ico-controle.svg",
+    imgSrc: "/ico-controle.svg",
     altText: "engrenagem",
     titulo: "Vendas e NF-e",
     subtitulo: "Controle total da sua gestão de vendas",
     descricao:
       "A eficiência do processo de vendas é essencial para o sucesso da sua empresa. Venda mais com menos trabalho manual e atinja todo o potencial do seu negócio.",
-    gif: "/public/vendas-e-nf-e.gif",
+    gif: "/vendas-e-nf-e.gif",
   },
   {
     id: "servicos",
-    imgSrc: "/public/ico-guia.svg",
+    imgSrc: "/ico-guia.svg",
     altText: "serviços",
     titulo: "Serviços e NFS-e",
     subtitulo: "Sua gestão de serviços mais eficiente",
     descricao:
       "Tem muitos contratos para faturar? Com Omie você visualiza todos em uma única tela de gerenciamento e fatura tudo de uma só vez.",
-    gif: "/public/servicos-e-nfs-e.gif",
+    gif: "/servicos-e-nfs-e.gif",
   },
   {
     id: "financas",
-    imgSrc: "/public/ico-compras.svg",
+    imgSrc: "/ico-compras.svg",
     altText: "finanças",
     titulo: "Finanças",
     subtitulo: "Controle financeiro empresarial e gestão simplificada",
     descricao:
       "Conquiste mais transparência e saiba como está a saúde financeira da sua empresa em tempo real.",
-    gif: "/public/modulos-financeiro.gif",
+    gif: "/modulos-financeiro.gif",
   },
   {
     id: "estoque",
-    imgSrc: "/public/ico-integracao.svg",
+    imgSrc: "/ico-integracao.svg",
     altText: "integração",
     titulo: "Compras, estoque e produção",
     subtitulo: "Gestão inteligente de compras e estoque",
     descricao:
       "Evite prejuízos: gerencie seu estoque de maneira eficiente com a captura automática de NF-es e CT-es.",
-    gif: "/public/compras-estoque-e-producao.gif",
+    gif: "/compras-estoque-e-producao.gif",
   },
 ];
 

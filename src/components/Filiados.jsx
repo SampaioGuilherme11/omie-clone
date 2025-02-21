@@ -4,7 +4,7 @@ const Filiados = () => {
   return (
     <div className="flex items-center justify-evenly bg-[#00E2F4] py-[50px]">
       <div>
-        <img src="/public/faixa-franqui-mob.webp" alt="franqueado" />
+        <img src="/faixa-franqui-mob.webp" alt="franqueado" />
       </div>
       <div>
         <h2 className="max-w-[800px] pb-[20px] text-4xl font-bold text-[#001E27]">

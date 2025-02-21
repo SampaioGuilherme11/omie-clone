@@ -18,7 +18,7 @@ const TesteGratis = () => {
       <div className="h-full w-[32%] rounded-2xl border border-[#bebebe] bg-white p-[16px]">
         <div className="flex justify-between rounded-[8px] border border-[#bebebe] p-4">
           <h3 className="text-[20px] font-bold text-[#001E27]">Omie ERP</h3>
-          <img src="/public/modulos.png" alt="modulos" />
+          <img src="/modulos.png" alt="modulos" />
         </div>
         <div className="flex flex-col items-center pt-5">
           <h4 className="text-[24px]">
@@ -32,23 +32,23 @@ const TesteGratis = () => {
         </div>
         <ul className="flex flex-col gap-2.5">
           <li className="flex gap-[8px]">
-            <img src="/public/check-bg-petroleo.svg" alt="checkbox" />
+            <img src="/check-bg-petroleo.svg" alt="checkbox" />
             Sistema 100% na nuvem
           </li>
           <li className="flex gap-[8px]">
-            <img src="/public/check-bg-petroleo.svg" alt="checkbox" />
+            <img src="/check-bg-petroleo.svg" alt="checkbox" />
             Suporte premium ao cliente
           </li>
           <li className="flex gap-[8px]">
-            <img src="/public/check-bg-petroleo.svg" alt="checkbox" />
+            <img src="/check-bg-petroleo.svg" alt="checkbox" />
             Não precisa de cartão de crédito
           </li>
           <li className="flex gap-[8px]">
-            <img src="/public/check-bg-petroleo.svg" alt="checkbox" />
+            <img src="/check-bg-petroleo.svg" alt="checkbox" />
             Cancelamento rápido e a qualquer momento
           </li>
           <li className="flex gap-[8px]">
-            <img src="/public/check-bg-petroleo.svg" alt="checkbox" />
+            <img src="/check-bg-petroleo.svg" alt="checkbox" />
             Contratação online, simples e super prática
           </li>
         </ul>

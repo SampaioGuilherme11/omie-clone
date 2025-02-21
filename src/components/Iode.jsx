@@ -16,14 +16,14 @@ const Iode = () => {
           />
         </div>
         <div className="flex items-center">
-          <img src="/public/logo-faixa-iode.webp" alt="Logo Iode" />
+          <img src="/logo-faixa-iode.webp" alt="Logo Iode" />
         </div>
       </div>
       <div className="flex min-h-[109px] items-center justify-evenly bg-[#F7F7F7] px-[12px] py-[20px]">
-        <img src="/public/empresas/logo-astella.png" alt="astella" />
-        <img src="/public/empresas/logo-softbank.png" alt="astella" />
-        <img src="/public/empresas/logo-riverwood.png" alt="astella" />
-        <img src="/public/empresas/logo-aws.png" alt="astella" />
+        <img src="/empresas/logo-astella.png" alt="astella" />
+        <img src="/empresas/logo-softbank.png" alt="softbank" />
+        <img src="/empresas/logo-riverwood.png" alt="riverwood" />
+        <img src="/empresas/logo-aws.png" alt="aws" />
       </div>
     </>
   );
