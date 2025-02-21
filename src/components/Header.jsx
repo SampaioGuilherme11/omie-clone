@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import Button from "./ui/button";
+import Button from "./ui/Button";
 import DropDownMenu from "./ui/DropDownMenu";
 
 const Header = () => {
